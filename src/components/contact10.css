@@ -56,6 +56,10 @@
   justify-content: center;
 }
  
+.contact10-link {
+  text-decoration: underline;
+}
+ 
 .contact10-text5 {
   display: inline-block;
 }

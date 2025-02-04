@@ -52,10 +52,10 @@ const Contact10 = (props) => {
             </p>
             <div className="contact10-container3">
               <a
-                href="https://example.com"
+                href="https://geo:34.34943397856818, -119.05646562886578"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="thq-body-small thq-button-flat"
+                className="contact10-link thq-body-small thq-button-flat"
               >
                 Get directions
               </a>
