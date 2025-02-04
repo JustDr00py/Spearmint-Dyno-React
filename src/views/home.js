@@ -20,47 +20,59 @@ const Home = (props) => {
       <Navbar8
         link1={
           <Fragment>
-            <span className="home-text10">#home</span>
+            <span className="home-text10">Home</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text11">#services</span>
+            <span className="home-text11">Services</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="home-text12">#contact</span>
+            <span className="home-text12">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page1={
           <Fragment>
-            <span className="home-text13">Home</span>
+            <span className="home-text13">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page2={
           <Fragment>
-            <span className="home-text14">Services</span>
+            <span className="home-text14">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page3={
           <Fragment>
-            <span className="home-text15">About Us</span>
+            <span className="home-text15">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page4={
           <Fragment>
-            <span className="home-text16">Contact</span>
+            <span className="home-text16">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         link21={
           <Fragment>
-            <span className="home-text17">#contact us</span>
+            <span className="home-text17">Contact us</span>
           </Fragment>
         }
         action1={
           <Fragment>
-            <span className="home-text18">Main Action</span>
+            <span className="home-text18">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         link1Url="https://spearmintdyno.com"
@@ -68,24 +80,33 @@ const Home = (props) => {
         link2Url1="#Hero17"
         page1Description={
           <Fragment>
-            <span className="home-text19">Page One Description</span>
+            <span className="home-text19">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page2Description={
           <Fragment>
-            <span className="home-text20">Page Two Description</span>
+            <span className="home-text20">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page3Description={
           <Fragment>
-            <span className="home-text21">Page Three Description</span>
+            <span className="home-text21">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
         page4Description={
           <Fragment>
-            <span className="home-text22">Page Four Description</span>
+            <span className="home-text22">
+              https://play.teleporthq.io/static/svg/placeholders/no-image.svg
+            </span>
           </Fragment>
         }
+        imageSrc="/logo.svg"
       ></Navbar8>
       <Hero17
         action1={
@@ -93,14 +114,9 @@ const Home = (props) => {
             <span className="home-text23">Book an Appointment</span>
           </Fragment>
         }
-        action2={
-          <Fragment>
-            <span className="home-text24">Learn More</span>
-          </Fragment>
-        }
         content1={
           <Fragment>
-            <span className="home-text25">
+            <span className="home-text24">
               From Street to Track, We Fine-Tune Your Car for Ultimate
               Performance.
             </span>
@@ -108,7 +124,7 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text26">
+            <span className="home-text25">
               Precision Tuning. Peak Performance.
             </span>
           </Fragment>
@@ -130,19 +146,19 @@ const Home = (props) => {
         features24Id="Features24"
         feature1Title={
           <Fragment>
-            <span className="home-text27">
+            <span className="home-text26">
               Performance Tuning &amp; Dyno Testing
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="home-text28">Auto Repair &amp; Maintenance</span>
+            <span className="home-text27">Auto Repair &amp; Maintenance</span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="home-text29">
+            <span className="home-text28">
               Custom Upgrades &amp; Modifications
             </span>
           </Fragment>
@@ -150,7 +166,7 @@ const Home = (props) => {
         feature1ImgSrc="/7-1400w.jpg"
         feature1Description={
           <Fragment>
-            <span className="home-text30">
+            <span className="home-text29">
               {' '}
               Maximize horsepower, torque, and efficiency with expert tuning.
             </span>
@@ -158,7 +174,7 @@ const Home = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="home-text31">
+            <span className="home-text30">
               <span>
                 From diagnostics to full repairs, we keep your car running
                 strong.
@@ -169,7 +185,7 @@ const Home = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="home-text34">
+            <span className="home-text33">
               {' '}
               High-performance parts and expert installs for the perfect build.
             </span>
@@ -179,12 +195,12 @@ const Home = (props) => {
       <CTA26
         action1={
           <Fragment>
-            <span className="home-text35">Schedule an Appointment</span>
+            <span className="home-text34">Schedule an Appointment</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text36">
+            <span className="home-text35">
               Book a dyno tune or service appointment today and experience the
               difference. Performance starts here!
             </span>
@@ -192,7 +208,7 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text37">
+            <span className="home-text36">
               Ready to Unlock Your Car’s True Potential?
             </span>
           </Fragment>
@@ -201,25 +217,25 @@ const Home = (props) => {
       <Contact10
         content1={
           <Fragment>
-            <span className="home-text38">
+            <span className="home-text37">
               Have Questions? Need a Tune? Let’s Talk Performance!
             </span>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <span className="home-text39">Contact Us</span>
+            <span className="home-text38">Contact Us</span>
           </Fragment>
         }
         location1={
           <Fragment>
-            <span className="home-text40">Location</span>
+            <span className="home-text39">Location</span>
           </Fragment>
         }
         location1ImageSrc="/8-1400w.jpg"
         location1Description={
           <Fragment>
-            <span className="home-text41">
+            <span className="home-text40">
               <span>304 S. Ojai St.</span>
               <br></br>
               <span>Santa Paula CA. 93060</span>
@@ -229,22 +245,8 @@ const Home = (props) => {
         }
       ></Contact10>
       <Footer4
-        logoSrc="/logo-removebg-preview-1500h.png"
-        termsLink={
-          <Fragment>
-            <span className="home-text46">Terms and Conditions</span>
-          </Fragment>
-        }
-        cookiesLink={
-          <Fragment>
-            <span className="home-text47">Cookies Policy</span>
-          </Fragment>
-        }
-        privacyLink={
-          <Fragment>
-            <span className="home-text48">Privacy Policy</span>
-          </Fragment>
-        }
+        logoSrc="/logo.svg"
+        rootClassName="footer4root-class-name"
       ></Footer4>
     </div>
   )

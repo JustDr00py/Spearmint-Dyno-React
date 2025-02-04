@@ -396,7 +396,7 @@ Navbar8.defaultProps = {
   page4Description: undefined,
   link1: undefined,
   page2: undefined,
-  imageSrc: '/logo-removebg-preview-400w.png',
+  imageSrc: '/logo.svg',
   page3: undefined,
   link2: undefined,
   link4: undefined,

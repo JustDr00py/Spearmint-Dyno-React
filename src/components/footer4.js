@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
@@ -6,7 +6,9 @@ import './footer4.css'
 
 const Footer4 = (props) => {
   return (
-    <footer className="footer4-footer7 thq-section-padding">
+    <footer
+      className={`footer4-footer7 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="footer4-max-width thq-section-max-width">
         <div className="footer4-content">
           <div className="footer4-logo1">
@@ -22,31 +24,9 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TeleportHQ</span>
+              <span className="thq-body-small">© 2024 SpearmintDyno</span>
             </div>
-            <div className="footer4-footer-links">
-              <span className="footer4-text2 thq-body-small">
-                {props.privacyLink ?? (
-                  <Fragment>
-                    <span className="footer4-text5">Privacy Policy</span>
-                  </Fragment>
-                )}
-              </span>
-              <span className="thq-body-small">
-                {props.termsLink ?? (
-                  <Fragment>
-                    <span className="footer4-text6">Terms and Conditions</span>
-                  </Fragment>
-                )}
-              </span>
-              <span className="thq-body-small">
-                {props.cookiesLink ?? (
-                  <Fragment>
-                    <span className="footer4-text7">Cookies Policy</span>
-                  </Fragment>
-                )}
-              </span>
-            </div>
+            <div className="footer4-footer-links"></div>
           </div>
         </div>
       </div>
@@ -55,19 +35,15 @@ const Footer4 = (props) => {
 }
 
 Footer4.defaultProps = {
-  privacyLink: undefined,
-  termsLink: undefined,
-  logoSrc: '/logo-removebg-preview-200w.png',
-  cookiesLink: undefined,
+  logoSrc: '/logo.svg',
   logoAlt: 'Mechanic Shop Logo',
+  rootClassName: '',
 }
 
 Footer4.propTypes = {
-  privacyLink: PropTypes.element,
-  termsLink: PropTypes.element,
   logoSrc: PropTypes.string,
-  cookiesLink: PropTypes.element,
   logoAlt: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer4

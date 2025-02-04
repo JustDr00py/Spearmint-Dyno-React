@@ -31,7 +31,7 @@
 }
  
 .navbar8-image {
-  width: 304px;
+  width: 321px;
   height: 159px;
   object-fit: cover;
 }
@@ -548,6 +548,10 @@
 @media(max-width: 479px) {
   .navbar8-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .navbar8-image {
+    width: 291px;
+    height: 131px;
   }
   .navbar8-mobile-menu {
     padding: var(--dl-space-space-unit);

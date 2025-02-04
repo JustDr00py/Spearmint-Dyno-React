@@ -119,19 +119,15 @@
   display: contents;
 }
  
+.hero17-text4 {
+  display: inline-block;
+}
+ 
 .hero17-text5 {
   display: inline-block;
 }
  
 .hero17-text6 {
-  display: inline-block;
-}
- 
-.hero17-text7 {
-  display: inline-block;
-}
- 
-.hero17-text8 {
   display: inline-block;
 }
  
@@ -150,10 +146,7 @@
     width: 100%;
     flex-direction: column;
   }
-  .hero17-button1 {
-    width: 100%;
-  }
-  .hero17-button2 {
+  .hero17-button {
     width: 100%;
   }
 }

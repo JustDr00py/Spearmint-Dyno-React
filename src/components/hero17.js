@@ -16,7 +16,7 @@ const Hero17 = (props) => {
           <h1 className="hero17-text1 thq-heading-1">
             {props.heading1 ?? (
               <Fragment>
-                <span className="hero17-text5">
+                <span className="hero17-text4">
                   Expert Auto Repair Services
                 </span>
               </Fragment>
@@ -25,7 +25,7 @@ const Hero17 = (props) => {
           <p className="hero17-text2 thq-body-large">
             {props.content1 ?? (
               <Fragment>
-                <span className="hero17-text8">
+                <span className="hero17-text6">
                   Trust our experienced mechanics to take care of all your car
                   maintenance and repair needs.
                 </span>
@@ -34,20 +34,11 @@ const Hero17 = (props) => {
           </p>
         </div>
         <div className="hero17-actions">
-          <button className="thq-button-filled hero17-button1">
+          <button className="thq-button-filled hero17-button">
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="hero17-text6">Book an Appointment</span>
-                </Fragment>
-              )}
-            </span>
-          </button>
-          <button className="thq-button-outline hero17-button2">
-            <span className="thq-body-small">
-              {props.action2 ?? (
-                <Fragment>
-                  <span className="hero17-text7">Learn More</span>
+                  <span className="hero17-text5">Book an Appointment</span>
                 </Fragment>
               )}
             </span>
@@ -169,7 +160,6 @@ Hero17.defaultProps = {
     'https://images.unsplash.com/photo-1530675706010-bc677ce30ab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxM3w&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
   image5Alt: 'Car diagnostic equipment',
-  action2: undefined,
   content1: undefined,
   image6Src:
     'https://images.unsplash.com/photo-1518631145805-509a14b04f46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxNHw&ixlib=rb-4.0.3&q=80&w=1080',
@@ -192,7 +182,6 @@ Hero17.propTypes = {
   image3Src: PropTypes.string,
   action1: PropTypes.element,
   image5Alt: PropTypes.string,
-  action2: PropTypes.element,
   content1: PropTypes.element,
   image6Src: PropTypes.string,
   image3Alt: PropTypes.string,
