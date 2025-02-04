@@ -52,7 +52,7 @@ const Contact10 = (props) => {
             </p>
             <div className="contact10-container3">
               <a
-                href="https://geo:34.34943397856818, -119.05646562886578"
+                href="https://maps.app.goo.gl/5opzMuBy44LRUAHS6"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contact10-link thq-body-small thq-button-flat"
