@@ -30,11 +30,6 @@ const Contact10 = (props) => {
         </div>
         <div className="contact10-content3 thq-flex-row">
           <div className="contact10-container2">
-            <img
-              alt={props.location1ImageAlt}
-              src={props.location1ImageSrc}
-              className="contact10-image thq-img-ratio-16-9"
-            />
             <h3 className="contact10-text3 thq-heading-3">
               {props.location1 ?? (
                 <Fragment>
@@ -42,6 +37,10 @@ const Contact10 = (props) => {
                 </Fragment>
               )}
             </h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.044505114083!2d-119.0564549!3d34.34934539999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9b59e7bd35f9b%3A0x97df42a452e46323!2sSpearmint%20Dyno!5e0!3m2!1sen!2sus!4v1738700857304!5m2!1sen!2sus"
+              className="contact10-iframe"
+            ></iframe>
             <p className="thq-body-large">
               {props.location1Description ?? (
                 <Fragment>
@@ -71,8 +70,6 @@ const Contact10 = (props) => {
 Contact10.defaultProps = {
   location1: undefined,
   heading1: undefined,
-  location1ImageSrc: '/8-1400w.jpg',
-  location1ImageAlt: 'Main Shop Location Image',
   location1Description: undefined,
   content1: undefined,
 }
@@ -80,8 +77,6 @@ Contact10.defaultProps = {
 Contact10.propTypes = {
   location1: PropTypes.element,
   heading1: PropTypes.element,
-  location1ImageSrc: PropTypes.string,
-  location1ImageAlt: PropTypes.string,
   location1Description: PropTypes.element,
   content1: PropTypes.element,
 }

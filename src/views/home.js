@@ -28,34 +28,34 @@ const Home = (props) => {
             <span className="home-text11">#services</span>
           </Fragment>
         }
-        link3={
-          <Fragment>
-            <span className="home-text12">#about</span>
-          </Fragment>
-        }
         link4={
           <Fragment>
-            <span className="home-text13">#contact</span>
+            <span className="home-text12">#contact</span>
           </Fragment>
         }
         page1={
           <Fragment>
-            <span className="home-text14">Home</span>
+            <span className="home-text13">Home</span>
           </Fragment>
         }
         page2={
           <Fragment>
-            <span className="home-text15">Services</span>
+            <span className="home-text14">Services</span>
           </Fragment>
         }
         page3={
           <Fragment>
-            <span className="home-text16">About Us</span>
+            <span className="home-text15">About Us</span>
           </Fragment>
         }
         page4={
           <Fragment>
-            <span className="home-text17">Contact</span>
+            <span className="home-text16">Contact</span>
+          </Fragment>
+        }
+        link21={
+          <Fragment>
+            <span className="home-text17">#contact us</span>
           </Fragment>
         }
         action1={
@@ -63,54 +63,44 @@ const Home = (props) => {
             <span className="home-text18">Main Action</span>
           </Fragment>
         }
-        action2={
-          <Fragment>
-            <span className="home-text19">Secondary Action</span>
-          </Fragment>
-        }
+        link1Url="https://spearmintdyno.com"
+        link2Url="#Features24"
+        link2Url1="#Hero17"
         page1Description={
           <Fragment>
-            <span className="home-text20">Page One Description</span>
+            <span className="home-text19">Page One Description</span>
           </Fragment>
         }
         page2Description={
           <Fragment>
-            <span className="home-text21">Page Two Description</span>
+            <span className="home-text20">Page Two Description</span>
           </Fragment>
         }
         page3Description={
           <Fragment>
-            <span className="home-text22">Page Three Description</span>
+            <span className="home-text21">Page Three Description</span>
           </Fragment>
         }
         page4Description={
           <Fragment>
-            <span className="home-text23">Page Four Description</span>
+            <span className="home-text22">Page Four Description</span>
           </Fragment>
         }
-        link1Url="https://spearmintdyno.com"
-        link2Url="#Features24"
-        link21={
-          <Fragment>
-            <span className="home-text24">#contact us</span>
-          </Fragment>
-        }
-        link2Url1="#Hero17"
       ></Navbar8>
       <Hero17
         action1={
           <Fragment>
-            <span className="home-text25">Book an Appointment</span>
+            <span className="home-text23">Book an Appointment</span>
           </Fragment>
         }
         action2={
           <Fragment>
-            <span className="home-text26">Learn More</span>
+            <span className="home-text24">Learn More</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text27">
+            <span className="home-text25">
               From Street to Track, We Fine-Tune Your Car for Ultimate
               Performance.
             </span>
@@ -118,11 +108,12 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text28">
+            <span className="home-text26">
               Precision Tuning. Peak Performance.
             </span>
           </Fragment>
         }
+        hero17Id="Hero17"
         image1Src="/1-1500w.jpg"
         image2Src="/2-1500w.jpg"
         image3Src="/3-1500w.jpg"
@@ -134,24 +125,24 @@ const Home = (props) => {
         image9Src="/3-1500w.jpg"
         image10Src="/9-1500w.jpg"
         rootClassName="hero17root-class-name"
-        hero17Id="Hero17"
       ></Hero17>
       <Features24
+        features24Id="Features24"
         feature1Title={
           <Fragment>
-            <span className="home-text29">
+            <span className="home-text27">
               Performance Tuning &amp; Dyno Testing
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="home-text30">Auto Repair &amp; Maintenance</span>
+            <span className="home-text28">Auto Repair &amp; Maintenance</span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="home-text31">
+            <span className="home-text29">
               Custom Upgrades &amp; Modifications
             </span>
           </Fragment>
@@ -159,7 +150,7 @@ const Home = (props) => {
         feature1ImgSrc="/7-1400w.jpg"
         feature1Description={
           <Fragment>
-            <span className="home-text32">
+            <span className="home-text30">
               {' '}
               Maximize horsepower, torque, and efficiency with expert tuning.
             </span>
@@ -167,7 +158,7 @@ const Home = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="home-text33">
+            <span className="home-text31">
               <span>
                 From diagnostics to full repairs, we keep your car running
                 strong.
@@ -178,23 +169,22 @@ const Home = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="home-text36">
+            <span className="home-text34">
               {' '}
               High-performance parts and expert installs for the perfect build.
             </span>
           </Fragment>
         }
-        features24Id="Features24"
       ></Features24>
       <CTA26
         action1={
           <Fragment>
-            <span className="home-text37">Schedule an Appointment</span>
+            <span className="home-text35">Schedule an Appointment</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text38">
+            <span className="home-text36">
               Book a dyno tune or service appointment today and experience the
               difference. Performance starts here!
             </span>
@@ -202,7 +192,7 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text39">
+            <span className="home-text37">
               Ready to Unlock Your Car’s True Potential?
             </span>
           </Fragment>
@@ -211,24 +201,25 @@ const Home = (props) => {
       <Contact10
         content1={
           <Fragment>
-            <span className="home-text40">
+            <span className="home-text38">
               Have Questions? Need a Tune? Let’s Talk Performance!
             </span>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <span className="home-text41">Contact Us</span>
+            <span className="home-text39">Contact Us</span>
           </Fragment>
         }
         location1={
           <Fragment>
-            <span className="home-text42">Location</span>
+            <span className="home-text40">Location</span>
           </Fragment>
         }
+        location1ImageSrc="/8-1400w.jpg"
         location1Description={
           <Fragment>
-            <span className="home-text43">
+            <span className="home-text41">
               <span>304 S. Ojai St.</span>
               <br></br>
               <span>Santa Paula CA. 93060</span>
@@ -236,23 +227,22 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        location1ImageSrc="/8-1400w.jpg"
       ></Contact10>
       <Footer4
         logoSrc="/logo-removebg-preview-1500h.png"
         termsLink={
           <Fragment>
-            <span className="home-text48">Terms and Conditions</span>
+            <span className="home-text46">Terms and Conditions</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text49">Cookies Policy</span>
+            <span className="home-text47">Cookies Policy</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text50">Privacy Policy</span>
+            <span className="home-text48">Privacy Policy</span>
           </Fragment>
         }
       ></Footer4>

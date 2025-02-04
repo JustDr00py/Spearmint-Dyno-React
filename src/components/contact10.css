@@ -38,12 +38,13 @@
   flex-direction: column;
 }
  
-.contact10-image {
-  object-fit: cover;
-}
- 
 .contact10-text3 {
   text-align: center;
+}
+ 
+.contact10-iframe {
+  width: 868px;
+  height: 406px;
 }
  
 .contact10-container3 {
@@ -86,8 +87,5 @@
 @media(max-width: 767px) {
   .contact10-content1 {
     gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .contact10-image {
-    width: 100%;
   }
 }

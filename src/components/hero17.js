@@ -174,9 +174,9 @@ Hero17.defaultProps = {
   image6Src:
     'https://images.unsplash.com/photo-1518631145805-509a14b04f46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxNHw&ixlib=rb-4.0.3&q=80&w=1080',
   image3Alt: 'Mechanic inspecting a vehicle',
+  hero17Id: '',
   image1Src:
     'https://images.unsplash.com/photo-1606485940233-76eeff49360c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxOHw&ixlib=rb-4.0.3&q=80&w=1080',
-  hero17Id: '',
 }
 
 Hero17.propTypes = {
@@ -196,8 +196,8 @@ Hero17.propTypes = {
   content1: PropTypes.element,
   image6Src: PropTypes.string,
   image3Alt: PropTypes.string,
-  image1Src: PropTypes.string,
   hero17Id: PropTypes.string,
+  image1Src: PropTypes.string,
 }
 
 export default Hero17

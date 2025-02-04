@@ -127,6 +127,7 @@ Features24.defaultProps = {
   feature2Title: undefined,
   feature3Title: undefined,
   feature3ImgAlt: 'Diagnostic tools in use',
+  features24Id: '',
   feature1Title: undefined,
   feature1Description: undefined,
   feature2ImgSrc:
@@ -139,13 +140,13 @@ Features24.defaultProps = {
     'https://images.unsplash.com/photo-1633059170547-43b7d8de1fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxM3w&ixlib=rb-4.0.3&q=80&w=1080',
   feature3Description: undefined,
   feature1ImgAlt: 'Car engine being repaired',
-  features24Id: '',
 }
 
 Features24.propTypes = {
   feature2Title: PropTypes.element,
   feature3Title: PropTypes.element,
   feature3ImgAlt: PropTypes.string,
+  features24Id: PropTypes.string,
   feature1Title: PropTypes.element,
   feature1Description: PropTypes.element,
   feature2ImgSrc: PropTypes.string,
@@ -155,7 +156,6 @@ Features24.propTypes = {
   feature1ImgSrc: PropTypes.string,
   feature3Description: PropTypes.element,
   feature1ImgAlt: PropTypes.string,
-  features24Id: PropTypes.string,
 }
 
 export default Features24
