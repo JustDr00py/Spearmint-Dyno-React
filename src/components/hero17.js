@@ -52,7 +52,7 @@ const Hero17 = (props) => {
         </div>
       </div>
       <div className="hero17-content2">
-        <div className="hero17-row-container1 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+        <div className="hero17-row-container thq-mask-image-horizontal thq-animated-group-container-horizontal">
           <div className="thq-animated-group-horizontal">
             <img
               alt={props.image1Alt}
@@ -118,7 +118,6 @@ const Hero17 = (props) => {
             />
           </div>
         </div>
-        <div className="hero17-row-container2 thq-mask-image-horizontal thq-animated-group-container-horizontal"></div>
       </div>
       <div>
         <div className="hero17-container2">

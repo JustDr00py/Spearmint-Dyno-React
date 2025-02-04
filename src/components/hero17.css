@@ -51,7 +51,7 @@
   flex-direction: column;
 }
  
-.hero17-row-container1 {
+.hero17-row-container {
   width: 100%;
 }
  
@@ -113,11 +113,6 @@
 .hero17-placeholder-image21 {
   width: 400px;
   height: 400px;
-}
- 
-.hero17-row-container2 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
 }
  
 .hero17-container2 {
