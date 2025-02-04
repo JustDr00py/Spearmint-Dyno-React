@@ -7,7 +7,10 @@ import './hero17.css'
 
 const Hero17 = (props) => {
   return (
-    <div className={`hero17-header78 ${props.rootClassName} `}>
+    <div
+      id={props.hero17Id}
+      className={`hero17-header78 ${props.rootClassName} `}
+    >
       <div className="hero17-column thq-section-padding thq-section-max-width">
         <div className="hero17-content1">
           <h1 className="hero17-text1 thq-heading-1">
@@ -173,6 +176,7 @@ Hero17.defaultProps = {
   image3Alt: 'Mechanic inspecting a vehicle',
   image1Src:
     'https://images.unsplash.com/photo-1606485940233-76eeff49360c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxOHw&ixlib=rb-4.0.3&q=80&w=1080',
+  hero17Id: '',
 }
 
 Hero17.propTypes = {
@@ -193,6 +197,7 @@ Hero17.propTypes = {
   image6Src: PropTypes.string,
   image3Alt: PropTypes.string,
   image1Src: PropTypes.string,
+  hero17Id: PropTypes.string,
 }
 
 export default Hero17

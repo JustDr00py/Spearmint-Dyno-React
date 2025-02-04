@@ -21,8 +21,7 @@ const Contact10 = (props) => {
               {props.content1 ?? (
                 <Fragment>
                   <span className="contact10-text8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse varius enim in ero.
+                    Have Questions? Need a Tune? Let’s Talk Performance!
                   </span>
                 </Fragment>
               )}
@@ -39,7 +38,7 @@ const Contact10 = (props) => {
             <h3 className="contact10-text3 thq-heading-3">
               {props.location1 ?? (
                 <Fragment>
-                  <span className="contact10-text5">Main Shop Location</span>
+                  <span className="contact10-text5">Shop Location</span>
                 </Fragment>
               )}
             </h3>
@@ -72,8 +71,7 @@ const Contact10 = (props) => {
 Contact10.defaultProps = {
   location1: undefined,
   heading1: undefined,
-  location1ImageSrc:
-    'https://images.unsplash.com/photo-1558975355-84703f540cf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxM3w&ixlib=rb-4.0.3&q=80&w=1080',
+  location1ImageSrc: '/8-1400w.jpg',
   location1ImageAlt: 'Main Shop Location Image',
   location1Description: undefined,
   content1: undefined,

@@ -16,44 +16,7 @@ const Footer4 = (props) => {
               className="footer4-logo2"
             />
           </div>
-          <div className="footer4-links">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link1 ?? (
-                <Fragment>
-                  <span className="footer4-text16">Home</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link2 ?? (
-                <Fragment>
-                  <span className="footer4-text19">Services</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link4 ?? (
-                <Fragment>
-                  <span className="footer4-text18">Contact Us</span>
-                </Fragment>
-              )}
-            </a>
-          </div>
+          <div className="footer4-links"></div>
         </div>
         <div className="footer4-credits">
           <div className="thq-divider-horizontal"></div>
@@ -62,24 +25,24 @@ const Footer4 = (props) => {
               <span className="thq-body-small">© 2024 TeleportHQ</span>
             </div>
             <div className="footer4-footer-links">
-              <span className="footer4-text11 thq-body-small">
+              <span className="footer4-text2 thq-body-small">
                 {props.privacyLink ?? (
                   <Fragment>
-                    <span className="footer4-text14">Privacy Policy</span>
+                    <span className="footer4-text5">Privacy Policy</span>
                   </Fragment>
                 )}
               </span>
               <span className="thq-body-small">
                 {props.termsLink ?? (
                   <Fragment>
-                    <span className="footer4-text15">Terms and Conditions</span>
+                    <span className="footer4-text6">Terms and Conditions</span>
                   </Fragment>
                 )}
               </span>
               <span className="thq-body-small">
                 {props.cookiesLink ?? (
                   <Fragment>
-                    <span className="footer4-text17">Cookies Policy</span>
+                    <span className="footer4-text7">Cookies Policy</span>
                   </Fragment>
                 )}
               </span>
@@ -95,22 +58,16 @@ Footer4.defaultProps = {
   privacyLink: undefined,
   termsLink: undefined,
   logoSrc: '/logo-removebg-preview-200w.png',
-  link1: undefined,
   cookiesLink: undefined,
-  link4: undefined,
   logoAlt: 'Mechanic Shop Logo',
-  link2: undefined,
 }
 
 Footer4.propTypes = {
   privacyLink: PropTypes.element,
   termsLink: PropTypes.element,
   logoSrc: PropTypes.string,
-  link1: PropTypes.element,
   cookiesLink: PropTypes.element,
-  link4: PropTypes.element,
   logoAlt: PropTypes.string,
-  link2: PropTypes.element,
 }
 
 export default Footer4

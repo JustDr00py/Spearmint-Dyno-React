@@ -7,7 +7,7 @@ import './features24.css'
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
   return (
-    <div className="thq-section-padding">
+    <div id={props.features24Id} className="thq-section-padding">
       <div className="features24-container2 thq-section-max-width">
         <div className="features24-image-container">
           {activeTab === 0 && (
@@ -139,6 +139,7 @@ Features24.defaultProps = {
     'https://images.unsplash.com/photo-1633059170547-43b7d8de1fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczODYyMzUxM3w&ixlib=rb-4.0.3&q=80&w=1080',
   feature3Description: undefined,
   feature1ImgAlt: 'Car engine being repaired',
+  features24Id: '',
 }
 
 Features24.propTypes = {
@@ -154,6 +155,7 @@ Features24.propTypes = {
   feature1ImgSrc: PropTypes.string,
   feature3Description: PropTypes.element,
   feature1ImgAlt: PropTypes.string,
+  features24Id: PropTypes.string,
 }
 
 export default Features24

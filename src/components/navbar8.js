@@ -36,38 +36,17 @@ const Navbar8 = (props) => {
                 </Fragment>
               )}
             </a>
-            <div
-              onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
-              className="navbar8-link4-dropdown-trigger"
-            >
-              <span className="thq-body-small thq-link">
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar8-text19">#contact</span>
-                  </Fragment>
-                )}
-              </span>
-              <div className="navbar8-icon-container1">
-                {link5DropdownVisible && (
-                  <div className="navbar8-container3">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon10">
-                      <path d="M298 426h428l-214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-                {!link5DropdownVisible && (
-                  <div className="navbar8-container4">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon12">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-              </div>
-            </div>
+            <a href={props.link2Url1} className="thq-body-small thq-link">
+              {props.link21 ?? (
+                <Fragment>
+                  <span className="navbar8-text26">#contact us</span>
+                </Fragment>
+              )}
+            </a>
           </nav>
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="navbar8-icon14">
+          <svg viewBox="0 0 1024 1024" className="navbar8-icon10">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
@@ -80,7 +59,7 @@ const Navbar8 = (props) => {
                 className="navbar8-logo"
               />
               <div data-thq="thq-close-menu" className="navbar8-close-menu">
-                <svg viewBox="0 0 1024 1024" className="navbar8-icon16">
+                <svg viewBox="0 0 1024 1024" className="navbar8-icon12">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
@@ -125,17 +104,17 @@ const Navbar8 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                  <div className="navbar8-icon-container2">
+                  <div className="navbar8-icon-container">
                     {link5AccordionOpen && (
-                      <div className="navbar8-container5">
-                        <svg viewBox="0 0 1024 1024" className="navbar8-icon18">
+                      <div className="navbar8-container3">
+                        <svg viewBox="0 0 1024 1024" className="navbar8-icon14">
                           <path d="M298 426h428l-214 214z"></path>
                         </svg>
                       </div>
                     )}
                     {!link5AccordionOpen && (
-                      <div className="navbar8-container6">
-                        <svg viewBox="0 0 1024 1024" className="navbar8-icon20">
+                      <div className="navbar8-container4">
+                        <svg viewBox="0 0 1024 1024" className="navbar8-icon16">
                           <path d="M426 726v-428l214 214z"></path>
                         </svg>
                       </div>
@@ -143,7 +122,7 @@ const Navbar8 = (props) => {
                   </div>
                 </div>
                 {link5AccordionOpen && (
-                  <div className="navbar8-container7">
+                  <div className="navbar8-container5">
                     <a href={props.linkUrlPage1}>
                       <div className="navbar8-menu-item1">
                         <img
@@ -299,7 +278,7 @@ const Navbar8 = (props) => {
           </div>
         </div>
         {link5DropdownVisible && (
-          <div className="navbar8-container8 thq-box-shadow">
+          <div className="navbar8-container6 thq-box-shadow">
             <div className="navbar8-link5-menu-list">
               <a href={props.linkUrlPage1}>
                 <div className="navbar8-menu-item5">
@@ -416,7 +395,7 @@ const Navbar8 = (props) => {
       {link5DropdownVisible && (
         <div
           onClick={() => setLink5DropdownVisible(false)}
-          className="navbar8-container9"
+          className="navbar8-container7"
         ></div>
       )}
     </header>
@@ -462,6 +441,8 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   linkUrlPage1: 'https://www.teleporthq.io',
   page2ImageAlt: 'image',
+  link21: undefined,
+  link2Url1: 'https://www.teleporthq.io',
 }
 
 Navbar8.propTypes = {
@@ -498,6 +479,8 @@ Navbar8.propTypes = {
   page2Description: PropTypes.element,
   linkUrlPage1: PropTypes.string,
   page2ImageAlt: PropTypes.string,
+  link21: PropTypes.element,
+  link2Url1: PropTypes.string,
 }
 
 export default Navbar8
